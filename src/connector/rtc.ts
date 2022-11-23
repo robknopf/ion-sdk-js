@@ -3,8 +3,8 @@ import { Service, Connector } from './ion';
 import Client, { Configuration, Trickle } from '../client';
 import { Signal } from '../signal';
 import { EventEmitter } from 'events';
-import * as sfu_rpc from '../_library/proto/rtc/rtc_pb_service';
-import * as pb from '../_library/proto/rtc/rtc_pb';
+import * as sfu_rpc from '../generated/proto/rtc/rtc_pb_service';
+import * as pb from '../generated/proto/rtc/rtc_pb';
 import { LocalStream, RemoteStream } from '../stream';
 
 /**

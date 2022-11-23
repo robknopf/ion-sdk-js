@@ -1,7 +1,7 @@
 import { Configuration } from '../client';
 import { LocalStream, RemoteStream, Constraints } from '../stream';
 import { Connector, Service } from './ion';
-import { RTC, Subscription } from './rtc';
+import { RTC, Subscription, JoinConfig } from './rtc';
 import {
   Room,
   JoinResult,
@@ -25,6 +25,7 @@ export {
   Service,
   RTC,
   Room,
+  JoinConfig,
   JoinResult,
   Peer,
   PeerState,

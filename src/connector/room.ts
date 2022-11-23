@@ -1,7 +1,7 @@
 import { grpc } from '@improbable-eng/grpc-web';
 import { Service, Connector } from './ion';
-import * as room from '../_library/apps/room/proto/room_pb';
-import * as room_rpc from '../_library/apps/room/proto/room_pb_service';
+import * as room from '../generated/apps/room/proto/room_pb';
+import * as room_rpc from '../generated/apps/room/proto/room_pb_service';
 import { EventEmitter } from 'events';
 
 /**
