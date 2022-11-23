@@ -1,7 +1,7 @@
 .DS_Store
-node_modules
-dist
-lib
-ion
+/node_modules
+/dist
+/lib
+/ion
 
 *.log
