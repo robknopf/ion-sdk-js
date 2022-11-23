@@ -8,7 +8,9 @@
     "strict": true,
     "module": "commonjs",
     "outDir": "./lib",
-    "declaration": true
+    "declaration": true,
+    "allowJs": true,
+    "checkJs": false
   },
   "include": [
     "decs.d.ts",
