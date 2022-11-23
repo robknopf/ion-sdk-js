@@ -1,4 +1,4 @@
-FROM node:16.18.1-alpine
+FROM node:18-alpine
 
 
 RUN npm i -g ts-protoc-gen@0.15.0
