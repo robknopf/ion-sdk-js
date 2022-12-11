@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "bundle": "NODE_OPTIONS='--openssl-legacy-provider' webpack",
+    "bundle": "webpack",
     "dev": "tsc -w",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
